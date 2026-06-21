@@ -4,3 +4,4 @@ meta:
 variables: []
 presetSpeakers:
   - id: 小红
+  - id: 我
