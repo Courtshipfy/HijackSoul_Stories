@@ -249,13 +249,6 @@ nodes:
       textKey: 所以你是带着一个“未决定”去旅行
       speechRate: 1
       voiceAsset: ""
-  - nodeId: N_TrainDraft_036
-    nodeType: Dialogue
-    dialogue:
-      speakerId: 旁白
-      textKey: 我沉默了几秒。
-      speechRate: 1
-      voiceAsset: ""
   - nodeId: N_TrainDraft_037
     nodeType: Dialogue
     dialogue:
@@ -654,14 +647,6 @@ edges:
   - sourceNodeId: N_TrainDraft_034
     sourceHandle: ""
     targetNodeId: N_TrainDraft_035
-    priority: 0
-  - sourceNodeId: N_TrainDraft_035
-    sourceHandle: ""
-    targetNodeId: N_TrainDraft_036
-    priority: 0
-  - sourceNodeId: N_TrainDraft_036
-    sourceHandle: ""
-    targetNodeId: N_TrainDraft_037
     priority: 0
   - sourceNodeId: N_TrainDraft_037
     sourceHandle: ""
