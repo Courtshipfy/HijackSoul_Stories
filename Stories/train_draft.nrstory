@@ -5,12 +5,12 @@ meta:
 variables: []
 nodes:
   - nodeId: N_TrainDraft_001
-    nodeType: Dialogue
-    dialogue:
+    nodeType: MultiDialogue
+    multiDialogue:
       speakerId: 旁白
-      textKey: 列车晃动着向南行驶，窗外是连绵的丘陵。我望着摊开的笔记本，手中的笔不知不觉滑落，滚向过道。
-      speechRate: 1
-      voiceAsset: ""
+      lines:
+        - textKey: 列车晃动着向南行驶，窗外是连绵的丘陵。我望着摊开的笔记本，手中的笔不知不觉滑落，滚向过道。
+        - textKey: "114514"
   - nodeId: N_TrainDraft_002
     nodeType: Dialogue
     dialogue:
