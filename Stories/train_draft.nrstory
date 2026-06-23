@@ -513,8 +513,7 @@ nodes:
     nodeType: End
   - nodeId: node-1782137472746
     nodeType: EmitEvent
-    emitEvent:
-      eventId: "1122333"
+    eventId: "1122333"
 edges:
   - sourceNodeId: N_TrainDraft_001
     sourceHandle: ""
