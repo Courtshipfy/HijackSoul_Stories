@@ -466,7 +466,7 @@ nodes:
     nodeType: Dialogue
     dialogue:
       speakerId: 女孩
-      textKey: %…&*（）#￥%&，*&……%￥#@！？#@…?
+      textKey: "%…&*（）#￥%&，*&……%￥#@！？#@…?"
       speechRate: 1
       voiceAsset: ""
 
@@ -482,7 +482,7 @@ nodes:
     nodeType: Dialogue
     dialogue:
       speakerId: 我
-      textKey: @#￥%……&*#@￥%…&*（）,#@…%…？
+      textKey: "@#￥%……&*#@￥%…&*（）,#@…%…？"
       speechRate: 1
       voiceAsset: ""
 
@@ -498,7 +498,7 @@ nodes:
     nodeType: Dialogue
     dialogue:
       speakerId: 女孩
-      textKey: *&……%￥#@，！——@#￥,（）——#￥%&
+      textKey: "*&……%￥#@，！——@#￥,（）——#￥%&"
       speechRate: 1
       voiceAsset: ""
 
