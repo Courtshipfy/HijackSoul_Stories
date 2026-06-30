@@ -5,5 +5,3 @@ variables: []
 presetSpeakers:
   - id: 小红
   - id: 我
-  - id: "101"
-    displayName: boy
