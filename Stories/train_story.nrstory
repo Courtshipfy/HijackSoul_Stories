@@ -737,6 +737,11 @@ nodes:
     params:
       environment: train.RightWindowViewVisual
       state: field_right
+  - nodeId: node-1782914813513
+    nodeType: EmitEvent
+    eventType: wait
+    params:
+      seconds: 2
 edges:
   - sourceNodeId: N_TrainStory_001
     sourceHandle: ""
@@ -1171,6 +1176,10 @@ edges:
     targetNodeId: node-1782914097110
     priority: 0
   - sourceNodeId: node-1782914097110
+    sourceHandle: ""
+    targetNodeId: node-1782914813513
+    priority: 0
+  - sourceNodeId: node-1782914813513
     sourceHandle: ""
     targetNodeId: N_TrainStory_037
     priority: 0
