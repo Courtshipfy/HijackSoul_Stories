@@ -884,14 +884,6 @@ edges:
     sourceHandle: ""
     targetNodeId: N_TrainStory_035
     priority: 0
-  - sourceNodeId: N_TrainStory_035
-    sourceHandle: ""
-    targetNodeId: N_TrainStory_036
-    priority: 0
-  - sourceNodeId: N_TrainStory_037
-    sourceHandle: ""
-    targetNodeId: N_TrainStory_038
-    priority: 0
   - sourceNodeId: N_TrainStory_039
     sourceHandle: ""
     targetNodeId: N_TrainStory_040
@@ -1176,10 +1168,6 @@ edges:
     sourceHandle: ""
     targetNodeId: N_TrainStory_037
     priority: 0
-  - sourceNodeId: N_TrainStory_038
-    sourceHandle: ""
-    targetNodeId: node-1782914813513
-    priority: 0
   - sourceNodeId: node-1782914813513
     sourceHandle: ""
     targetNodeId: N_TrainStory_039
@@ -1191,4 +1179,16 @@ edges:
   - sourceNodeId: node-1782915347637
     sourceHandle: ""
     targetNodeId: N_TrainStory_067
+    priority: 0
+  - sourceNodeId: N_TrainStory_035
+    sourceHandle: ""
+    targetNodeId: N_TrainStory_038
+    priority: 0
+  - sourceNodeId: N_TrainStory_038
+    sourceHandle: ""
+    targetNodeId: N_TrainStory_036
+    priority: 0
+  - sourceNodeId: N_TrainStory_037
+    sourceHandle: ""
+    targetNodeId: node-1782914813513
     priority: 0
