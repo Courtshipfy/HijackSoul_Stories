@@ -745,6 +745,13 @@ nodes:
     params:
       environment: train.OrangeVisual
       state: orange
+  - nodeId: node-1782921114538
+    nodeType: EmitEvent
+    eventType: object.set_state
+    params:
+      object: train.orange
+      visible: true
+      enabled: true
 edges:
   - sourceNodeId: N_TrainStory_001
     sourceHandle: ""
@@ -1187,6 +1194,10 @@ edges:
     targetNodeId: node-1782916230941
     priority: 0
   - sourceNodeId: node-1782916230941
+    sourceHandle: ""
+    targetNodeId: node-1782921114538
+    priority: 0
+  - sourceNodeId: node-1782921114538
     sourceHandle: ""
     targetNodeId: N_TrainStory_033
     priority: 0
