@@ -453,9 +453,8 @@ nodes:
     nodeType: EmitEvent
     eventType: environment.set_state
     params:
-      environment: train.window_view
-      state: sea
-      transition_seconds: 20
+      environment: train.LeftWindowViewVisual
+      state: sea_left
   - nodeId: N_TrainStory_067
     nodeType: EmitEvent
     eventType: dialogue.change_posture
@@ -466,7 +465,7 @@ nodes:
     nodeType: EmitEvent
     eventType: timeline.wait
     params:
-      seconds: 20
+      seconds: 5
   - nodeId: N_TrainStory_069
     nodeType: MultiDialogue
     multiDialogue:
@@ -742,6 +741,12 @@ nodes:
     eventType: wait
     params:
       seconds: 2
+  - nodeId: node-1782915347637
+    nodeType: EmitEvent
+    eventType: environment.set_state
+    params:
+      environment: train.RightWindowViewVisual
+      state: sea_right
 edges:
   - sourceNodeId: N_TrainStory_001
     sourceHandle: ""
@@ -995,10 +1000,6 @@ edges:
     sourceHandle: ""
     targetNodeId: N_TrainStory_066
     priority: 0
-  - sourceNodeId: N_TrainStory_066
-    sourceHandle: ""
-    targetNodeId: N_TrainStory_067
-    priority: 0
   - sourceNodeId: N_TrainStory_067
     sourceHandle: ""
     targetNodeId: N_TrainStory_068
@@ -1182,4 +1183,12 @@ edges:
   - sourceNodeId: node-1782914813513
     sourceHandle: ""
     targetNodeId: N_TrainStory_039
+    priority: 0
+  - sourceNodeId: N_TrainStory_066
+    sourceHandle: ""
+    targetNodeId: node-1782915347637
+    priority: 0
+  - sourceNodeId: node-1782915347637
+    sourceHandle: ""
+    targetNodeId: N_TrainStory_067
     priority: 0
