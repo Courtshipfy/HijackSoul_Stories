@@ -887,10 +887,6 @@ edges:
     sourceHandle: ""
     targetNodeId: N_TrainStory_038
     priority: 0
-  - sourceNodeId: N_TrainStory_038
-    sourceHandle: ""
-    targetNodeId: N_TrainStory_039
-    priority: 0
   - sourceNodeId: N_TrainStory_039
     sourceHandle: ""
     targetNodeId: N_TrainStory_040
@@ -1177,9 +1173,13 @@ edges:
     priority: 0
   - sourceNodeId: node-1782914097110
     sourceHandle: ""
+    targetNodeId: N_TrainStory_037
+    priority: 0
+  - sourceNodeId: N_TrainStory_038
+    sourceHandle: ""
     targetNodeId: node-1782914813513
     priority: 0
   - sourceNodeId: node-1782914813513
     sourceHandle: ""
-    targetNodeId: N_TrainStory_037
+    targetNodeId: N_TrainStory_039
     priority: 0
