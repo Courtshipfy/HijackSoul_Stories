@@ -471,7 +471,6 @@ nodes:
     params:
       environment: train.lighting
       state: dark_tunnel
-      transition_seconds: 0.8
   - nodeId: N_TrainStory_071
     nodeType: EmitEvent
     eventType: timeline.wait
@@ -502,14 +501,13 @@ nodes:
     nodeType: EmitEvent
     eventType: timeline.wait
     params:
-      seconds: 15
+      seconds: 5
   - nodeId: N_TrainStory_076
     nodeType: EmitEvent
     eventType: environment.set_state
     params:
       environment: train.lighting
       state: day
-      transition_seconds: 1.2
   - nodeId: N_TrainStory_077
     nodeType: Dialogue
     dialogue:
@@ -754,18 +752,6 @@ nodes:
       object: train.orange
       visible: true
       enabled: true
-  - nodeId: node-1782923488811
-    nodeType: EmitEvent
-    eventType: environment.set_state
-    params:
-      environment: train.LeftWindowViewVisual
-      state: tunnel_left
-  - nodeId: node-1782923549509
-    nodeType: EmitEvent
-    eventType: environment.set_state
-    params:
-      environment: train.RightWindowViewVisual
-      state: tunnel_right
 edges:
   - sourceNodeId: N_TrainStory_001
     sourceHandle: ""
@@ -1027,10 +1013,6 @@ edges:
     sourceHandle: ""
     targetNodeId: N_TrainStory_075
     priority: 0
-  - sourceNodeId: N_TrainStory_076
-    sourceHandle: ""
-    targetNodeId: N_TrainStory_077
-    priority: 0
   - sourceNodeId: N_TrainStory_077
     sourceHandle: ""
     targetNodeId: N_TrainStory_078
@@ -1203,23 +1185,19 @@ edges:
     sourceHandle: ""
     targetNodeId: N_TrainStory_067
     priority: 0
-  - sourceNodeId: node-1782915347637
-    sourceHandle: ""
-    targetNodeId: N_TrainStory_076
-    priority: 0
-  - sourceNodeId: N_TrainStory_075
-    sourceHandle: ""
-    targetNodeId: N_TrainStory_066
-    priority: 0
-  - sourceNodeId: node-1782923488811
-    sourceHandle: ""
-    targetNodeId: node-1782923549509
-    priority: 0
-  - sourceNodeId: node-1782923549509
+  - sourceNodeId: N_TrainStory_069
     sourceHandle: ""
     targetNodeId: N_TrainStory_070
     priority: 0
-  - sourceNodeId: N_TrainStory_069
+  - sourceNodeId: N_TrainStory_075
     sourceHandle: ""
-    targetNodeId: node-1782923488811
+    targetNodeId: N_TrainStory_076
+    priority: 0
+  - sourceNodeId: N_TrainStory_076
+    sourceHandle: ""
+    targetNodeId: N_TrainStory_066
+    priority: 0
+  - sourceNodeId: node-1782915347637
+    sourceHandle: ""
+    targetNodeId: N_TrainStory_077
     priority: 0
