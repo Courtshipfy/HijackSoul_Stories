@@ -471,6 +471,7 @@ nodes:
     params:
       environment: train.lighting
       state: dark_tunnel
+      transition_seconds: 1.2
   - nodeId: N_TrainStory_071
     nodeType: EmitEvent
     eventType: timeline.wait
@@ -508,6 +509,7 @@ nodes:
     params:
       environment: train.lighting
       state: day
+      transition_seconds: 1.2
   - nodeId: N_TrainStory_077
     nodeType: Dialogue
     dialogue:
